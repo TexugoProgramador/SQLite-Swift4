@@ -14,6 +14,8 @@
 		AE2FCB20206FC1A0006A0D38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2FCB1E206FC1A0006A0D38 /* LaunchScreen.storyboard */; };
 		AE2FCB2B206FC1A0006A0D38 /* SQLite_Swift4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2FCB2A206FC1A0006A0D38 /* SQLite_Swift4Tests.swift */; };
 		AE2FCB36206FC1A0006A0D38 /* SQLite_Swift4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2FCB35206FC1A0006A0D38 /* SQLite_Swift4UITests.swift */; };
+		AE2FCB45206FCBD4006A0D38 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2FCB44206FCBD4006A0D38 /* libsqlite3.0.tbd */; };
+		AE5D073D2071872C00E9869C /* Pessoa.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5D073C2071872C00E9869C /* Pessoa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AE2FCB31206FC1A0006A0D38 /* SQLite-Swift4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLite-Swift4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2FCB35206FC1A0006A0D38 /* SQLite_Swift4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLite_Swift4UITests.swift; sourceTree = "<group>"; };
 		AE2FCB37206FC1A0006A0D38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2FCB44206FCBD4006A0D38 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		AE5D073C2071872C00E9869C /* Pessoa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pessoa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2FCB45206FCBD4006A0D38 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				AE2FCB29206FC1A0006A0D38 /* SQLite-Swift4Tests */,
 				AE2FCB34206FC1A0006A0D38 /* SQLite-Swift4UITests */,
 				AE2FCB13206FC19F006A0D38 /* Products */,
+				AE2FCB43206FCBD4006A0D38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,7 @@
 			children = (
 				AE2FCB15206FC19F006A0D38 /* AppDelegate.swift */,
 				AE2FCB17206FC19F006A0D38 /* ViewController.swift */,
+				AE5D073C2071872C00E9869C /* Pessoa.swift */,
 				AE2FCB19206FC19F006A0D38 /* Main.storyboard */,
 				AE2FCB1C206FC1A0006A0D38 /* Assets.xcassets */,
 				AE2FCB1E206FC1A0006A0D38 /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				AE2FCB37206FC1A0006A0D38 /* Info.plist */,
 			);
 			path = "SQLite-Swift4UITests";
+			sourceTree = "<group>";
+		};
+		AE2FCB43206FCBD4006A0D38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE2FCB44206FCBD4006A0D38 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2FCB18206FC19F006A0D38 /* ViewController.swift in Sources */,
+				AE5D073D2071872C00E9869C /* Pessoa.swift in Sources */,
 				AE2FCB16206FC19F006A0D38 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
